@@ -226,7 +226,7 @@ p[data-value]:after {
 
 .css3::-moz-progress-bar,
 .php::-moz-progress-bar {
-
+{
 	/* Gradient background with Stripes */
 	background-image:
 	-moz-linear-gradient( 135deg,
