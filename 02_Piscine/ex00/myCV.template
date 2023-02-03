@@ -10,27 +10,28 @@
 			text-align: center;
 		}
 
-		p {
+		p,
+		ul {
 			text-indent: 4ch;
-			margin-left: 15%;
-			margin-right: 15%;
+			margin-left: 30%;
+			margin-right: 30%;
 		}
 
 		h2,
 		h4 {
 			text-align: left;
-			text-indent: 15%;
+			text-indent: 30%;
 			margin-bottom: 0;
 			margin-top: 0;
 		}
 	</style>
-	<title>$NAME $SURNAME CV</title>
+	<title>{name} {surname}</title>
 </head>
 
 <body>
-	<h1>$NAME $SURNAME CV</h1>
-	<h4>Age: $AGE</h4>
-	<h4>Profession: $PROFESSION</h4><br><br><br>
+	<h1>{name} {surname}</h1>
+	<h4>Age: {age}</h4>
+	<h4>Profession: {profession}</h4><br><br><br>
 	<h2>Profile</h2>
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tellus mauris, faucibus sed metus auctor,
@@ -41,6 +42,18 @@
 		convallis tortor blandit, rhoncus sapien eget, laoreet est. Pellentesque habitant morbi tristique senectus et
 		netus et malesuada fames ac turpis egestas. Morbi volutpat ut lorem sit amet faucibus. Sed et eleifend diam.
 		Nullam sed ex ultrices, tincidunt massa ut, scelerisque arcu.
+	</p>
+	<h2>Professional Experience</h2>
+	<p>
+		Duis et tellus et lacus fringilla interdum quis sed lectus. Etiam vitae nunc sit amet diam porta tempus.
+		Maecenas scelerisque erat ac quam maximus sodales. Sed enim ante, accumsan id magna in, fermentum condimentum
+		lacus. Maecenas iaculis egestas justo. Etiam maximus lectus id ornare ultricies. Phasellus sollicitudin sed
+		libero vitae iaculis. Maecenas urna turpis, molestie quis sollicitudin posuere, varius id eros. Donec elit
+		felis, convallis sed ultrices eu, mattis sodales neque. Integer dolor libero, ornare ac egestas in, vulputate
+		eget orci. Integer lacus diam, dapibus a purus vel, euismod ultrices metus. Vivamus lobortis purus eget augue
+		molestie, sit amet varius ante laoreet. Praesent rhoncus tristique erat non euismod. Mauris congue leo in est
+		laoreet, id euismod justo imperdiet. Aliquam ornare finibus eleifend. Mauris ornare sapien vitae consequat
+		commodo.
 	</p>
 	<h2>Skills</h2>
 	<ul>
