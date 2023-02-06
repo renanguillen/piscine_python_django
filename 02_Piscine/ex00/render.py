@@ -6,13 +6,12 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/03 15:16:27 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/03 17:07:46 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/03 17:18:37 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 import sys
 from settings import *
-
 
 def argv_check():
 
@@ -31,6 +30,7 @@ def argv_check():
 	except:
 		print('Non-existing file')
 		sys.exit(1)
+
 
 def	render():
 
