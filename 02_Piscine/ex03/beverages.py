@@ -6,7 +6,7 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/06 10:20:18 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/06 15:53:06 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/06 15:26:38 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,6 +43,8 @@ class Cappuccino(HotBeverage):
 
 	def description(self):
 		return 'Un po’ di Italia nella sua tazza!'
+
+
 
 if __name__ == '__main__':
 	beverage = HotBeverage()
