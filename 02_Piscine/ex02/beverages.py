@@ -6,22 +6,54 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/06 10:20:18 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/06 11:52:41 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/06 15:26:38 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 class HotBeverage:
-	def __init__(self, price=0.30, name="hot beverage") -> None:
-		self.price = price
-		self.name = name
+	price = 0.3
+	name = 'hot beverage'
 
-	def description(self, desc="Just some hot water in a cup."):
-		return desc
+	def description(self):
+		return "Just some hot water in a cup."
 
 	def __str__(self) -> str:
-		return f'{self.price}\n{self.name}\n{self.description()}'
+		return f'name : {self.name}\nprice : {self.price:,.2f}\ndescription : {self.description()}\n'
+
+class Coffee(HotBeverage):
+	price = 0.4
+	name = 'coffee'
+
+	def description(self):
+		return 'A coffee, to stay awake.'
+
+class Tea(HotBeverage):
+	name = 'tea'
+
+class Chocolate(HotBeverage):
+	price = 0.5
+	name = 'chocolate'
+
+	def description(self):
+		return 'Chocolate, sweet chocolate...'
+
+class Cappuccino(HotBeverage):
+	price = 0.45
+	name = 'cappuccino'
+
+	def description(self):
+		return 'Un po’ di Italia nella sua tazza!'
+
+
 
 if __name__ == '__main__':
-	bev1 = HotBeverage(0.40, 'Coffee')
-	bev1.description('oie')
-	print(str(bev1))
+	beverage = HotBeverage()
+	print(str(beverage))
+	beverage = Coffee()
+	print(str(beverage))
+	beverage = Tea()
+	print(str(beverage))
+	beverage = Chocolate()
+	print(str(beverage))
+	beverage = Cappuccino()
+	print(str(beverage))
