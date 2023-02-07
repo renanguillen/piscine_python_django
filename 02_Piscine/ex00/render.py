@@ -6,9 +6,12 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/03 15:16:27 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/03 17:18:37 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/07 13:16:09 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+#!/usr/bin/env python3
+# coding: utf-8
 
 import sys
 from settings import *

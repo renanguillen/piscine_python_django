@@ -6,9 +6,12 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/03 15:52:21 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/06 11:11:55 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/07 13:15:58 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+#!/usr/bin/env python3
+# coding: utf-8
 
 class Intern:
 

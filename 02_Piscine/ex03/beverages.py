@@ -6,9 +6,12 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/06 10:20:18 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/07 10:55:52 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/07 13:15:40 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+#!/usr/bin/env python3
+# coding: utf-8
 
 class HotBeverage:
 	price = 0.3
