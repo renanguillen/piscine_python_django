@@ -6,7 +6,7 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/06 10:20:18 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/06 15:26:38 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/07 10:55:52 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ class HotBeverage:
 		return "Just some hot water in a cup."
 
 	def __str__(self) -> str:
-		return f'name : {self.name}\nprice : {self.price:,.2f}\ndescription : {self.description()}\n'
+		return f'name : {self.name}\nprice : {self.price:,.2f}\ndescription : {self.description()}'
 
 class Coffee(HotBeverage):
 	price = 0.4
