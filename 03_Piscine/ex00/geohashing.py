@@ -6,12 +6,9 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/08 09:41:35 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/08 13:56:17 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/08 16:23:38 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
-#!/usr/bin/env python3
-# coding: utf-8
 
 import sys
 import antigravity
@@ -69,7 +66,7 @@ def check_entry(latitude, longitude, dow_opening):
 
 def geohash(latitude, longitude, dow_opening):
     check_entry(float(latitude), float(longitude), dow_opening)
-    dow_opening = dow_opening.encode('UTF-8')
+    dow_opening = dow_opening.encode("UTF-8")
     antigravity.geohash(float(latitude), float(longitude), dow_opening)
     sys.exit(0)
 
