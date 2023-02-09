@@ -1,0 +1,2 @@
+requests==2.22.0
+dewiki==0.1.0

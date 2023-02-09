@@ -6,7 +6,7 @@
 #    By: ridalgo- <ridalgo-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/09 09:40:27 by ridalgo-          #+#    #+#              #
-#    Updated: 2023/02/09 13:34:09 by ridalgo-         ###   ########.fr        #
+#    Updated: 2023/02/09 13:50:33 by ridalgo-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ import sys
 class ArgvException(Exception):
     def __init__(self) -> None:
         super().__init__(
-            'Usage: python3 request_wikipenis.py "What you want to search"'
+            'Usage: python3 request_wikipedia.py "What you want to search"'
         )
 
 
